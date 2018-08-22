@@ -182,18 +182,18 @@ img {
 }
 .bp-tracker-gfx-start {
 	width: 40%;
-	border-bottom: 1px solid var(--primary-light);
+	border-bottom: 2px solid var(--primary-light);
 }
 .bp-tracker-gfx-current {
-	width: 10px;
-	height: 10px;
+	width: 14px;
+	height: 14px;
 	margin: 0 var(--space-01);
 	background-color: var(--primary-light);
-	border-radius: 10px; 
+	border-radius: 14px; 
 }
 .bp-tracker-gfx-end {
 	width: 50%;
-	border-bottom: 1px dashed var(--primary-light);
+	border-bottom: 2px dashed var(--primary-light);
 }
 
 
@@ -209,12 +209,14 @@ img {
 	font-size: var(--display-font-size-05);
 	font-family: var(--display-font-stack);
 	color: var(--neutral-01);
+	margin-bottom: var(--space-01);
 }
 .bp-ctd-amount {
-	font-size: var(--display-font-size-02);
+	font-size: var(--display-font-size-01);
 	font-family: var(--display-font-stack);
 	color: var(--neutral-01);
 	margin-bottom: var(--space-02);
+	line-height: 1;
 }
 
 .bp-ctd-projection {
@@ -233,6 +235,7 @@ img {
 	font-size: var(--display-font-size-05);
 	font-family: var(--display-font-stack);
 	color: var(--neutral-01);
+	margin-bottom: var(--space-03);
 }
 .bp-snap-sub {
 	font-size: var(--body-font-size-smallest);
@@ -242,17 +245,23 @@ img {
 
 /* Compare */
 .bp-snap-compare-wrapper {
-	margin-bottom: var(--space-03);
+	margin-bottom: var(--space-04);
 }
 .bp-snap-compare-this {
 	margin-bottom: var(--space-03);
 }
 .bp-snap-compare-label {
 	text-align: left;
-	font-size: var(--body-font-size-smallest);
+	font-size: var(--body-font-size-small);
 	font-family: var(--body-font-stack);
 	color: var(--neutral-03);
+	
+}
+.bp-snap-compare-this .bp-snap-compare-label {
 	margin-bottom: var(--space-01);
+}
+.bp-snap-compare-last .bp-snap-compare-label {
+	margin-top: var(--space-01);
 }
 .bp-snap-compare-bar {
 	width: 70%;
@@ -303,7 +312,7 @@ img {
 	margin-bottom: var(--space-03);
 }
 .bp-snap-insight-body {
-	font-size: var(--body-font-size-smallest);
+	font-size: var(--body-font-size-small);
 	font-family: var(--body-font-stack);
 	margin-bottom: var(--space-04);
 }
