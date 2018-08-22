@@ -8,9 +8,11 @@
 <title>AGL Energy - Test</title>
 
 <!-- Bootstrap -->
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Titillium+Web:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Titillium+Web:400,600, 700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
+<link href="css/variables.css" rel="stylesheet">
+<link href="css/usage-bp-mobile.css" rel="stylesheet">
+
 
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -31,279 +33,202 @@
 <!-- Content -->
 <div class="content-wrapper">
 
+<!-- nav -->
+<div class="nav-primary">
+	<img src="images/nav-mobile.png">
+</div>
+<!-- / nav -->
 
-<!-- monthly usage -->
-<div class="month-usage">	
+
+<!-- tab -->
+<div class="fuel-tab">
+	<div class="fuel-tab-icon"><img src="images/elec-icon-active.svg"></div>
+	<div class="fuel-tab-label fuel-tab-label-elec">Electricity</div>
+	<div class="fuel-tab-icon"><img src="images/gas-icon-inactive.svg"></div>
+	<div class="fuel-tab-label fuel-tab-label-gas">Gas</div>
+</div>
+<!-- / tab -->
+
+
+<!-- current bill period -->
+<div class="bp-wrapper bp-current">
 	
-<div class="" id="current-bill-period">
-<!-- Data Set 01 -->
-<div class="mm-data" id="mm-data-01">
-	<div class="mm-header"></div>
-	<div class="mm-item projected" id="mm-item-0"></div>
-	<div class="mm-item projected" id="mm-item-1"></div>
-	<div class="mm-item projected" id="mm-item-2"></div>
-	<div class="mm-item projected" id="mm-item-3"></div>
-	<div class="mm-item projected" id="mm-item-4"></div>
-	<div class="mm-item projected" id="mm-item-5"></div>
-	<div class="mm-item projected" id="mm-item-6"></div>
-	<div class="mm-item projected" id="mm-item-7"></div>
-	<div class="mm-item" id="mm-item-8"></div>
-	<div class="mm-item" id="mm-item-9"></div>
-	<div class="mm-item" id="mm-item-10"></div>
-	<div class="mm-item" id="mm-item-11"></div>
-	<div class="mm-item" id="mm-item-12"></div>
-	<div class="mm-item" id="mm-item-13"></div>
-	<div class="mm-item" id="mm-item-14"></div>
-	<div class="mm-item" id="mm-item-15"></div>
-	<div class="mm-item" id="mm-item-16"></div>
-	<div class="mm-item" id="mm-item-17"></div>
-	<div class="mm-item" id="mm-item-18"></div>
-	<div class="mm-item" id="mm-item-19"></div>
-	<div class="mm-item" id="mm-item-20"></div>
-	<div class="mm-item" id="mm-item-21"></div>
-	<div class="mm-item" id="mm-item-22"></div>
-	<div class="mm-item" id="mm-item-23"></div>
-	<div class="mm-item" id="mm-item-24"></div>
-	<div class="mm-item" id="mm-item-25"></div>
-	<div class="mm-item" id="mm-item-26"></div>
-	<div class="mm-item" id="mm-item-27"></div>
-</div>
-<!-- / Data Set 01 -->
-</div>
-
-
-<!-- Data Set 02 -->
-<div class="mm-data" id="mm-data-02">
-	<div class="mm-header"></div>
-	<div class="mm-item" id="mm-item-0"></div>
-	<div class="mm-item" id="mm-item-1"></div>
-	<div class="mm-item" id="mm-item-2"></div>
-	<div class="mm-item" id="mm-item-3"></div>
-	<div class="mm-item" id="mm-item-4"></div>
-	<div class="mm-item" id="mm-item-5"></div>
-	<div class="mm-item" id="mm-item-6"></div>
-	<div class="mm-item" id="mm-item-7"></div>
-	<div class="mm-item" id="mm-item-8"></div>
-	<div class="mm-item" id="mm-item-9"></div>
-	<div class="mm-item" id="mm-item-10"></div>
-	<div class="mm-item" id="mm-item-11"></div>
-	<div class="mm-item" id="mm-item-12"></div>
-	<div class="mm-item" id="mm-item-13"></div>
-	<div class="mm-item" id="mm-item-14"></div>
-	<div class="mm-item" id="mm-item-15"></div>
-	<div class="mm-item" id="mm-item-16"></div>
-	<div class="mm-item" id="mm-item-17"></div>
-	<div class="mm-item" id="mm-item-18"></div>
-	<div class="mm-item" id="mm-item-19"></div>
-	<div class="mm-item" id="mm-item-20"></div>
-	<div class="mm-item" id="mm-item-21"></div>
-	<div class="mm-item" id="mm-item-22"></div>
-	<div class="mm-item" id="mm-item-23"></div>
-	<div class="mm-item" id="mm-item-24"></div>
-	<div class="mm-item" id="mm-item-25"></div>
-	<div class="mm-item" id="mm-item-26"></div>
-	<div class="mm-item" id="mm-item-27"></div>
-	<div class="mm-item" id="mm-item-28"></div>
-	<div class="mm-item" id="mm-item-29"></div>
-	<div class="mm-item" id="mm-item-30"></div>
-</div>
-<!-- / Data Set 02 -->
-
-</div>
-<!-- /monthly usage -->
-
-
-<!-- day usage -->
-<div class="day-usage">	
+	<div class="bp-date">13 Mar to 09 May 2018</div>
 	
-<!-- day usage data set 01 -->
-<div class="mm-data dy-data" id="dy-data-01">
-	<div class="mm-header" id="dy-header-01"></div>
-	<div class="mm-item" id="mm-item-0"></div>
-	<div class="mm-item" id="mm-item-1"></div>
-	<div class="mm-item" id="mm-item-2"></div>
-	<div class="mm-item" id="mm-item-3"></div>
-	<div class="mm-item" id="mm-item-4"></div>
-	<div class="mm-item" id="mm-item-5"></div>
-	<div class="mm-item" id="mm-item-6"></div>
-	<div class="mm-item" id="mm-item-7"></div>
-	<div class="mm-item" id="mm-item-8"></div>
-	<div class="mm-item" id="mm-item-9"></div>
-	<div class="mm-item" id="mm-item-10"></div>
-	<div class="mm-item" id="mm-item-12"></div>
-	<div class="mm-item" id="mm-item-13"></div>
-	<div class="mm-item" id="mm-item-14"></div>
-	<div class="mm-item" id="mm-item-15"></div>
-	<div class="mm-item" id="mm-item-16"></div>
-	<div class="mm-item" id="mm-item-17"></div>
-	<div class="mm-item" id="mm-item-18"></div>
-	<div class="mm-item" id="mm-item-19"></div>
-	<div class="mm-item" id="mm-item-20"></div>
-	<div class="mm-item" id="mm-item-21"></div>
-	<div class="mm-item" id="mm-item-22"></div>
-	<div class="mm-item" id="mm-item-23"></div>
-</div>
-<!-- / day usage data set 01 -->
+	
+<!-- tracker -->
+	<div class="bp-tracker-wrapper">
+		<div class="bp-tracker-start-date">13 <br> Mar</div>	
+		<div class="bp-tracker-gfx">
+			<div class="bp-tracker-gfx-start"></div>
+			<div class="bp-tracker-gfx-current"></div>
+			<div class="bp-tracker-gfx-end"></div>
+		</div>	
+		<div class="bp-tracker-start-end">09 <br> May</div>	
+	</div>
+<!-- /tracker -->
 
-<!-- day usage data set 02 -->
-<div class="mm-data dy-data" id="dy-data-02">
-	<div class="mm-header" id="dy-header-01"></div>
-	<div class="mm-item" id="mm-item-0"></div>
-	<div class="mm-item" id="mm-item-1"></div>
-	<div class="mm-item" id="mm-item-2"></div>
-	<div class="mm-item" id="mm-item-3"></div>
-	<div class="mm-item" id="mm-item-4"></div>
-	<div class="mm-item" id="mm-item-5"></div>
-	<div class="mm-item" id="mm-item-6"></div>
-	<div class="mm-item" id="mm-item-7"></div>
-	<div class="mm-item" id="mm-item-8"></div>
-	<div class="mm-item" id="mm-item-9"></div>
-	<div class="mm-item" id="mm-item-10"></div>
-	<div class="mm-item" id="mm-item-12"></div>
-	<div class="mm-item" id="mm-item-13"></div>
-	<div class="mm-item" id="mm-item-14"></div>
-	<div class="mm-item" id="mm-item-15"></div>
-	<div class="mm-item" id="mm-item-16"></div>
-	<div class="mm-item" id="mm-item-17"></div>
-	<div class="mm-item" id="mm-item-18"></div>
-	<div class="mm-item" id="mm-item-19"></div>
-	<div class="mm-item" id="mm-item-20"></div>
-	<div class="mm-item" id="mm-item-21"></div>
-	<div class="mm-item" id="mm-item-22"></div>
-	<div class="mm-item" id="mm-item-23"></div>
-</div>
-<!-- / day usage data set 02 -->
+<!-- cost to date -->
+	<div class="bp-ctd-wrapper">
+		<div class="bp-ctd-hd">Cost to date</div>	
+		<div class="bp-ctd-amount">$67.56</div>
+		<div class="bp-ctd-projection">Bill projection $140.26 </div>
+	</div>
+<!-- /cost to date -->
 
-<!-- day usage data set 03 -->
-<div class="mm-data dy-data" id="dy-data-03">
-	<div class="mm-header" id="dy-header-01"></div>
-	<div class="mm-item" id="mm-item-0"></div>
-	<div class="mm-item" id="mm-item-1"></div>
-	<div class="mm-item" id="mm-item-2"></div>
-	<div class="mm-item" id="mm-item-3"></div>
-	<div class="mm-item" id="mm-item-4"></div>
-	<div class="mm-item" id="mm-item-5"></div>
-	<div class="mm-item" id="mm-item-6"></div>
-	<div class="mm-item" id="mm-item-7"></div>
-	<div class="mm-item" id="mm-item-8"></div>
-	<div class="mm-item" id="mm-item-9"></div>
-	<div class="mm-item" id="mm-item-10"></div>
-	<div class="mm-item" id="mm-item-12"></div>
-	<div class="mm-item" id="mm-item-13"></div>
-	<div class="mm-item" id="mm-item-14"></div>
-	<div class="mm-item" id="mm-item-15"></div>
-	<div class="mm-item" id="mm-item-16"></div>
-	<div class="mm-item" id="mm-item-17"></div>
-	<div class="mm-item" id="mm-item-18"></div>
-	<div class="mm-item" id="mm-item-19"></div>
-	<div class="mm-item" id="mm-item-20"></div>
-	<div class="mm-item" id="mm-item-21"></div>
-	<div class="mm-item" id="mm-item-22"></div>
-	<div class="mm-item" id="mm-item-23"></div>
-</div>
-<!-- / day usage data set 03 -->
 
-<!-- day usage data set 04 -->
-<div class="mm-data dy-data" id="dy-data-04">
-	<div class="mm-header" id="dy-header-01"></div>
-	<div class="mm-item" id="mm-item-0"></div>
-	<div class="mm-item" id="mm-item-1"></div>
-	<div class="mm-item" id="mm-item-2"></div>
-	<div class="mm-item" id="mm-item-3"></div>
-	<div class="mm-item" id="mm-item-4"></div>
-	<div class="mm-item" id="mm-item-5"></div>
-	<div class="mm-item" id="mm-item-6"></div>
-	<div class="mm-item" id="mm-item-7"></div>
-	<div class="mm-item" id="mm-item-8"></div>
-	<div class="mm-item" id="mm-item-9"></div>
-	<div class="mm-item" id="mm-item-10"></div>
-	<div class="mm-item" id="mm-item-12"></div>
-	<div class="mm-item" id="mm-item-13"></div>
-	<div class="mm-item" id="mm-item-14"></div>
-	<div class="mm-item" id="mm-item-15"></div>
-	<div class="mm-item" id="mm-item-16"></div>
-	<div class="mm-item" id="mm-item-17"></div>
-	<div class="mm-item" id="mm-item-18"></div>
-	<div class="mm-item" id="mm-item-19"></div>
-	<div class="mm-item" id="mm-item-20"></div>
-	<div class="mm-item" id="mm-item-21"></div>
-	<div class="mm-item" id="mm-item-22"></div>
-	<div class="mm-item" id="mm-item-23"></div>
-</div>
-<!-- / day usage data set 04 -->
 
-<!-- day usage data set 05 -->
-<div class="mm-data dy-data" id="dy-data-05">
-	<div class="mm-header" id="dy-header-01"></div>
-	<div class="mm-item" id="mm-item-0"></div>
-	<div class="mm-item" id="mm-item-1"></div>
-	<div class="mm-item" id="mm-item-2"></div>
-	<div class="mm-item" id="mm-item-3"></div>
-	<div class="mm-item" id="mm-item-4"></div>
-	<div class="mm-item" id="mm-item-5"></div>
-	<div class="mm-item" id="mm-item-6"></div>
-	<div class="mm-item" id="mm-item-7"></div>
-	<div class="mm-item" id="mm-item-8"></div>
-	<div class="mm-item" id="mm-item-9"></div>
-	<div class="mm-item" id="mm-item-10"></div>
-	<div class="mm-item" id="mm-item-12"></div>
-	<div class="mm-item" id="mm-item-13"></div>
-	<div class="mm-item" id="mm-item-14"></div>
-	<div class="mm-item" id="mm-item-15"></div>
-	<div class="mm-item" id="mm-item-16"></div>
-	<div class="mm-item" id="mm-item-17"></div>
-	<div class="mm-item" id="mm-item-18"></div>
-	<div class="mm-item" id="mm-item-19"></div>
-	<div class="mm-item" id="mm-item-20"></div>
-	<div class="mm-item" id="mm-item-21"></div>
-	<div class="mm-item" id="mm-item-22"></div>
-	<div class="mm-item" id="mm-item-23"></div>
-</div>
-<!-- / day usage data set 05 -->
+<!-- snapshot -->
+	<div class="bp-snap-wrapper">
+		<div class="bp-snap-hd">Snapshot of your usage</div>
+		<div class="bp-snap-sub">Average daily cost of electricity	</div>
+		
+		<div class="bp-snap-compare-wrapper">
+			<div class="bp-snap-compare-this">
+				<div class="bp-snap-compare-label">This year</div>
+				<div class="bp-snap-compare-bar-wrapper">
+					<div class="bp-snap-compare-bar"></div>
+					<div class="bp-snap-compare-amount">$8.07</div>
+				</div>
+			</div>
+			<div class="bp-snap-compare-last">
+				<div class="bp-snap-compare-bar-wrapper">
+					<div class="bp-snap-compare-bar"></div>
+					<div class="bp-snap-compare-amount">$3.16</div>
+				</div>
+				<div class="bp-snap-compare-label">Last year</div>
+			</div>
+		</div>
+		
+		<div class="bp-snap-insight">
+			<div class="bp-snap-insight-delta"><img src="images/up-icon.svg"></div>
+			<div class="bp-snap-insight-hd">60% more</div>
+		</div>
+		<div class="bp-snap-insight-sub">Than compared to last year</div>
+		<div class="bp-snap-insight-body">
+			You're spending more per day on your energy than this bill period last year.
+		</div>
+	</div>
+<!-- /snapshot date -->
 
-<!-- day usage data set 06 -->
-<div class="mm-data dy-data" id="dy-data-06">
-	<div class="mm-header" id="dy-header-01"></div>
-	<div class="mm-item" id="mm-item-0"></div>
-	<div class="mm-item" id="mm-item-1"></div>
-	<div class="mm-item" id="mm-item-2"></div>
-	<div class="mm-item" id="mm-item-3"></div>
-	<div class="mm-item" id="mm-item-4"></div>
-	<div class="mm-item" id="mm-item-5"></div>
-	<div class="mm-item" id="mm-item-6"></div>
-	<div class="mm-item" id="mm-item-7"></div>
-	<div class="mm-item" id="mm-item-8"></div>
-	<div class="mm-item" id="mm-item-9"></div>
-	<div class="mm-item" id="mm-item-10"></div>
-	<div class="mm-item" id="mm-item-12"></div>
-	<div class="mm-item" id="mm-item-13"></div>
-	<div class="mm-item" id="mm-item-14"></div>
-	<div class="mm-item" id="mm-item-15"></div>
-	<div class="mm-item" id="mm-item-16"></div>
-	<div class="mm-item" id="mm-item-17"></div>
-	<div class="mm-item" id="mm-item-18"></div>
-	<div class="mm-item" id="mm-item-19"></div>
-	<div class="mm-item" id="mm-item-20"></div>
-	<div class="mm-item" id="mm-item-21"></div>
-	<div class="mm-item" id="mm-item-22"></div>
-	<div class="mm-item" id="mm-item-23"></div>
-</div>
-<!-- / day usage data set 06 -->
+	<button href="#" >Full breakdown</button>
 
 </div>
-<!-- /day usage -->
+<!-- / current bill period -->
+
+<div class="prev-bill-hd">Previous bills</div>
+
+<!-- past bill period 01  -->
+<div class="bp-wrapper bp-past bp-past-01">
+	
+	<div class="bp-date">10 Jan to 12 Mar 2018</div>
+
+<!-- cost to date -->
+	<div class="bp-ctd-wrapper">
+		<div class="bp-ctd-hd">Bill total</div>	
+		<div class="bp-ctd-amount">$821.56</div>
+	</div>
+<!-- /cost to date -->
+
+
+
+<!-- snapshot -->
+	<div class="bp-snap-wrapper">
+		<div class="bp-snap-hd">Snapshot of your usage</div>
+		<div class="bp-snap-sub">Average daily cost of electricity	</div>
+		
+		<div class="bp-snap-compare-wrapper">
+			<div class="bp-snap-compare-this">
+				<div class="bp-snap-compare-label">This year</div>
+				<div class="bp-snap-compare-bar-wrapper">
+					<div class="bp-snap-compare-bar"></div>
+					<div class="bp-snap-compare-amount">$12.27</div>
+				</div>
+			</div>
+			<div class="bp-snap-compare-last">
+				<div class="bp-snap-compare-bar-wrapper">
+					<div class="bp-snap-compare-bar"></div>
+					<div class="bp-snap-compare-amount">$5.26</div>
+				</div>
+				<div class="bp-snap-compare-label">Last year</div>
+			</div>
+		</div>
+		
+		<div class="bp-snap-insight">
+			<div class="bp-snap-insight-delta"><img src="images/up-icon.svg"></div>
+			<div class="bp-snap-insight-hd">45% more</div>
+		</div>
+		<div class="bp-snap-insight-sub">Than compared to last year</div>
+		<div class="bp-snap-insight-body">
+			You're spending more per day on your energy than this bill period last year.
+		</div>
+	</div>
+<!-- /snapshot date -->
+
+	<button href="#" >Full breakdown</button>
+
+</div>
+<!-- / past bill period 0 -->
+
+
+<!-- past bill period 01  -->
+<div class="bp-wrapper bp-past bp-past-02">
+	
+	<div class="bp-date">10 Oct to 9 Jan 2018</div>
+
+<!-- cost to date -->
+	<div class="bp-ctd-wrapper">
+		<div class="bp-ctd-hd">Bill total</div>	
+		<div class="bp-ctd-amount">$322.56</div>
+	</div>
+<!-- /cost to date -->
+
+
+
+<!-- snapshot -->
+	<div class="bp-snap-wrapper">
+		<div class="bp-snap-hd">Snapshot of your usage</div>
+		<div class="bp-snap-sub">Average daily cost of electricity	</div>
+		
+		<div class="bp-snap-compare-wrapper">
+			<div class="bp-snap-compare-this">
+				<div class="bp-snap-compare-label">This year</div>
+				<div class="bp-snap-compare-bar-wrapper">
+					<div class="bp-snap-compare-bar"></div>
+					<div class="bp-snap-compare-amount">$4.27</div>
+				</div>
+			</div>
+			<div class="bp-snap-compare-last">
+				<div class="bp-snap-compare-bar-wrapper">
+					<div class="bp-snap-compare-bar"></div>
+					<div class="bp-snap-compare-amount">$5.26</div>
+				</div>
+				<div class="bp-snap-compare-label">Last year</div>
+			</div>
+		</div>
+		
+		<div class="bp-snap-insight">
+			<div class="bp-snap-insight-delta"><img src="images/down-icon.svg"></div>
+			<div class="bp-snap-insight-hd">12% less</div>
+		</div>
+		<div class="bp-snap-insight-sub">Than compared to last year</div>
+		<div class="bp-snap-insight-body">
+			You're spending less per day on your energy than this bill period last year.
+		</div>
+	</div>
+<!-- /snapshot date -->
+
+	<button href="#" >Full breakdown</button>
+
+</div>
+<!-- / past bill period 0 -->
 
 
 </div>
 <!-- / Content -->
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="js/jquery-1.11.3.min.js"></script>
-<script src="js/usageData-01.js"></script>
-<script src="js/usageData-02.js"></script>
-<script src="js/usageData-Dy-Feb.js"></script>
-<script src="js/usageLogic.js"></script>
-<script src="js/usageLogic-Dy.js"></script>
+
 
 </body>
 </html>
