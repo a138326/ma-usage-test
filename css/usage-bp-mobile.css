@@ -77,6 +77,8 @@
 --btn-font-size: 14px;
 --btn-font-weight: 600;
 
+--col-usage-active: linear-gradient(270deg, #00DFED 0%, #05B9EF 100%);
+--col-usage-inactive: linear-gradient(0deg, #E3E3E3 0%, #EBEBEB 97%);
 }
 
 
@@ -261,6 +263,7 @@ Average daily cost
 	width: 70%;
 	height: 15px;
 	background-color: var(--primary-dark);
+	background-image: var(--col-usage-active);
 	border-radius: 15px;
 }
 .bp-snap-compare-bar-wrapper {
@@ -276,6 +279,7 @@ Average daily cost
 }
 .bp-snap-compare-last .bp-snap-compare-bar {
 	background-color: var(--primary-light);
+	background-image: var(--col-usage-inactive);
 	width: 50%;
 }
 
