@@ -125,7 +125,7 @@ img {
 	font-size: var(--display-font-size-05);
 }
 .fuel-tab-static {
-	color: var(--neutral-03);
+	color: var(--neutral-01);
 }
 .fuel-tab-icon {
 	margin-right: var(--space-02);
@@ -252,6 +252,7 @@ Average daily cost
 	font-family: var(--display-font-stack);
 	color: var(--neutral-01);
 	margin-bottom: var(--space-03);
+
 }
 
 .bp-snap-compare-wrapper {
@@ -273,7 +274,7 @@ Average daily cost
 	margin-top: var(--space-01);
 }
 .bp-snap-compare-bar {
-	width: 70%;
+	width: 85%;
 	height: 15px;
 	background-color: var(--primary-dark);
 	background-image: var(--col-usage-active);
@@ -293,9 +294,20 @@ Average daily cost
 .bp-snap-compare-last .bp-snap-compare-bar {
 	background-color: var(--primary-light);
 	background-image: var(--col-usage-inactive);
-	width: 50%;
+	width: 37%;
 }
 
+/*
+–––––––––––––––––––––––––––––––––––––––
+One year data set
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+.one-year .bp-snap-hd {
+	margin-bottom: var(--space-01);
+}
+.one-year .bp-snap-insight-hd {
+	font-size: var(--display-font-size-03);
+	margin-bottom: var(--space-04);
+}
 
 /*
 –––––––––––––––––––––––––––––––––––––––
@@ -340,13 +352,15 @@ Previous bills
 	font-family: var(--display-font-stack);
 	text-align: center;
 }
-.bp-past-01 .bp-snap-compare-bar {
-	width: 80%;
+.bp-past-01 .bp-snap-compare-last .bp-snap-compare-bar {
+	width: 41%;
 }
-.bp-past-02 .bp-snap-compare-bar {
-	width: 40%;
+.bp-past-02 .bp-snap-compare-last .bp-snap-compare-bar {
+	width: 85%;
 }
-
+.bp-past-02 .bp-snap-compare-this .bp-snap-compare-bar {
+	width: 70%;
+}
 
 
 
