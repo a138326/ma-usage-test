@@ -1,0 +1,58 @@
+:root {
+    --col-btn-primary: #FFE344;    
+    --col-secondary: #FFE344;
+
+/* Primary Colours */
+--primary-light: #00DFED;
+--primary-dark: #001CB0;
+
+/* Secondary Colours */ 
+--secondary-success-light: #50E3C2;
+--secondary-success-dark: #2CAA18;
+--secondary-warning-light: #F80EC5;
+--secondary-warning-dark: #FD334C;
+--secondary-inform-light: #9D15FF;
+--secondary-inform-dark: #6031A6;
+--secondary-action-light: #FFE344;
+--secondary-action-dark: #F6A623;
+
+/* Neutral Colours */
+--neutral-01: #333333;
+--neutral-02: #666666;
+--neutral-03: #999999;
+--neutral-04: #CCCCCC;
+--neutral-05: #E8E8E8;
+--neutral-06: #F5F5F5;
+--neutral-07: #F9F9F9;
+--neutral-08: #FFFFFF;
+
+/* Fonts */
+--display-font-stack: 'Titillium Web', sans-serif;
+--body-font-stack: 'Open Sans', sans-serif;
+
+/* sizes */
+--display-font-size-alpha: 36px;
+--display-font-size-beta: 30px;
+--display-font-size-gamma: 26px;
+--display-font-size-delta: 22px;
+--display-font-size-epsilon: 18px;
+--display-font-size-number-large: 50px;
+--display-font-size-number-prefix: 30px;
+
+--body-font-size-big: 18px;
+--body-font-size-normal: 16px;
+--body-font-size-small: 14px;
+--body-font-size-smallest: 12px;
+
+/* Spacing */
+--space-01: 4px;
+--space-02: 8px;
+--space-03: 15px;
+--space-04: 30px;
+--space-05: 45px;
+--space-06: 60px;
+--space-07: 90px;
+--space-08: 120px;
+--space-09: 180px;
+    
+}

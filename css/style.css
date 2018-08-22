@@ -1,0 +1,199 @@
+/* 
+
+Base
+______________________________________________________________________________ 
+*/
+
+body {
+	background-color: #F9F9F9;
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	color: #333;
+}
+
+
+/* 
+
+Wrapper
+______________________________________________________________________________ 
+*/
+
+.content-wrapper {
+	background-color: #fff;
+	padding: 15px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
+	min-height: 100%;
+}
+
+@media only screen and (min-width: 700px) {
+	.content-wrapper {
+		max-width: 700px;
+		padding: 30px 60px;
+		margin: 0 auto;
+	}
+}
+
+
+
+
+
+/* 
+
+Bar graph style
+______________________________________________________________________________ 
+*/
+
+/* Layout - flexbox & widths */
+.month-usage {
+	position: relative;
+}
+.mm-item, 
+.mm-date-wrapper, 
+.usage-wrapper  {				
+	display: flex;
+	align-items: center;
+}
+.mm-item {
+	width: 100%;
+	height: 45px;
+}
+.usageDate-wrapper {
+	flex-wrap: wrap;
+	width: 40px;
+}
+.usageBar-wrapper {
+	width: calc(100% - 40px - 92px - 10px);
+	display: flex;
+	align-items: center;
+}
+.usageDetails-wrapper {
+	padding-left: 10px;
+	width: 92px;
+	display: none;
+	align-items: center;
+	justify-content:space-between;
+}
+.usageDate-wrapper div {
+	width: 100%;
+	text-align: center;
+}
+.usage-val-primary, .usage-val-secondary {
+	width: calc(100% - 12px);
+}
+.usage-val-more {
+	width: 12px;
+}
+
+.usageDetails-text {
+	display: flex;
+    flex-wrap: wrap;
+    width: 80px;
+}
+
+
+/* Styling – text */
+.date-no, .date-wkday, .usage-val-primary, .usage-val-secondary {
+	color: #666;
+	line-height: 1.2;
+}
+.date-no, .usage-val-primary {
+	font-family: 'Titillium Web', sans-serif;
+}
+.date-wkday, .usage-val-secondary {
+	font-family: 'Open Sans', sans-serif;
+}
+.date-no {
+	font-size: 16px;
+	font-weight: bold;
+}
+.usage-val-primary {
+	font-size: 22px;
+}
+.date-wkday, .usage-val-secondary {
+	font-size: 12px;
+}
+
+
+
+/* Styling – data vis */
+.usage-bar {
+	opacity: 0.5;
+	background-color: #00DFED;
+	border-radius: 100px;
+	height: 25px;
+}
+.projected .usage-bar {
+	background: none;
+	border: 1px solid #7FEFF6;
+}
+
+.usage-dash {
+	background-image: linear-gradient(-90deg, rgba(0,223,237,0) 0%, rgba(0,223,237,1) 50%);
+	height: 1px;
+	display: none;
+}
+.usage-val-more {
+	height: 22px;
+	background-image: url(../images/icon-next.svg);
+}
+#current-bill-period .projected .usage-val-more {
+	background: none;
+}
+
+/* interaction - hover, scroll */
+.mm-item:hover {
+	cursor: pointer;
+}
+.mm-item.active .usageDetails-wrapper,
+.mm-item:hover .usageDetails-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+.mm-item.active .usage-dash,
+.mm-item:hover .usage-dash {
+	display: block;
+}
+#current-bill-period .projected.mm-item:hover {
+	cursor:default;
+}
+
+/* current bill period */
+/*
+#current-bill-period {
+	margin: -15px;
+	padding: 15px;
+	margin-bottom: 30px;
+	background-image: linear-gradient(0deg, #001CB0 0%, #00B2E5 100%);
+}
+
+@media only screen and (min-width: 700px) {
+	#current-bill-period {
+		margin: -30px -60px;
+		padding: 30px 60px;
+		margin-bottom: 60px;
+	}
+}
+#current-bill-period div {
+	color: #fff;
+}
+#current-bill-period .usage-val-more {
+	background-image: url(../images/icon-next-rev.svg);
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="41px" viewBox="0 0 41 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 16</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="25.3472222%" y1="100%" x2="78.7000868%" y2="15.9071181%" id="linearGradient-1">
+            <stop stop-color="#001CB0" offset="0%"></stop>
+            <stop stop-color="#03A9F4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Round-7" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bill-periods-v2" transform="translate(-58.000000, -199.000000)">
+            <g id="Group-3" transform="translate(58.000000, 199.000000)">
+                <g id="Group-16">
+                    <circle id="Oval-3" fill="url(#linearGradient-1)" cx="20.5" cy="20.5" r="20.5"></circle>
+                    <path d="M27.692814,16.2399652 L22.4744529,16.2399652 L27.9177273,10.5064867 C28.0009825,10.4187201 28.0233495,10.290727 27.9742662,10.1804092 C27.9258043,10.0707009 27.8152115,10 27.692814,10 L27.6921927,10 L18.8335914,10.0195037 C18.7068447,10.0201132 18.5937667,10.09569 18.54779,10.2114933 L14.4521314,20.5027427 C14.414853,20.5959948 14.4279004,20.7008272 14.485682,20.7837179 C14.5440849,20.8659991 14.6608907,20.9104919 14.742282,20.9135394 L18.362019,20.8739225 L14.0259145,30.5770135 C13.9656477,30.7117109 14.0134884,30.869569 14.1383711,30.9500218 C14.1899397,30.9835438 14.2489639,31 14.3073668,31 C14.3900007,31 14.4720132,30.966478 14.5322801,30.903091 L27.9177273,16.7458424 C28.0009825,16.6586852 28.0233495,16.5306922 27.9742662,16.4203744 C27.9258043,16.3106661 27.8152115,16.2399652 27.692814,16.2399652" id="icon/electricity-copy-4" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
