@@ -149,7 +149,8 @@ img {
 	margin-bottom: var(--space-04);
 	line-height: 1;
 }
-	
+
+
 /* Bill period - tracker */
 
 .bp-tracker-wrapper {
@@ -160,11 +161,14 @@ img {
 }
 
 .bp-tracker-start-date, .bp-tracker-start-end {
-	font-size: var(--body-font-size-smallest);
+	font-size: var(--body-font-size-small);
 	font-family: var(--body-font-stack);
 	text-align: center;
 	line-height: 1.1;
-	width: 30px;
+	width: 40px;
+}
+.month {
+	font-size: var(--body-font-size-smallest);
 }
 .bp-tracker-start-end {
 	margin-left: var(--space-02);
