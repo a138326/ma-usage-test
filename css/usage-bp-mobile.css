@@ -90,7 +90,7 @@ body {
 	
 }
 .content-wrapper {
-	width: 375px;
+	/* width: 375px; */
 	margin: 0 auto;
 	background-color: var(--neutral-07);
 	padding-bottom: 200px;
