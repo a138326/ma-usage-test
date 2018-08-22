@@ -55,7 +55,7 @@
 --space-09: 180px;
  
  /* Shadow */
- --shadow-03: 0 6px 10px 0 rgba(0,0,0,0.08);
+ --shadow-03: 0 5px 15px 2px rgba(0,0,0,0.20);
 
  /* Border radius= */
 --bd-radius-01: 4px;
@@ -81,7 +81,7 @@
 
 /* Base */
 body {
-	background-color: var(--neutral-01);
+	background-color: var(--neutral-06);
 	margin: 0;
 	padding: 0;
 	font-family: var(--body-font-stack);
@@ -90,9 +90,9 @@ body {
 	
 }
 .content-wrapper {
-	/* width: 375px; */
+	max-width: 375px;
 	margin: 0 auto;
-	background-color: var(--neutral-07);
+	background-color: var(--neutral-06);
 	padding-bottom: 200px;
 }
 
@@ -116,7 +116,7 @@ img {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-bottom: var(--space-03);
+	margin-bottom: var(--space-04);
 	font-family: var(--display-font-stack);
 	font-size: var(--display-font-size-05);
 }
@@ -138,10 +138,8 @@ img {
 	border-radius: var(--bd-radius-04);
 	box-shadow: var(--shadow-03);
 	margin: 0 var(--space-03);
-	padding: 0 var(--space-03); 
+	padding: var(--space-04) var(--space-03); 
 	text-align: center;
-	padding-top: var(--space-04);
-	padding-bottom: var(--space-03);
 	margin-bottom: var(--space-03);
 }
 
@@ -149,6 +147,7 @@ img {
 	font-family: var(--display-font-stack);
 	font-size: var(--display-font-size-04);
 	margin-bottom: var(--space-04);
+	line-height: 1;
 }
 	
 /* Bill period - tracker */
@@ -338,6 +337,8 @@ button {
 	transition: background-color 0.5s ease-in-out;
 	display: block;
 	user-select: none;
+	width: 285px;
+	margin-left: 15px;
 }
 button:hover {
 	cursor: pointer;
