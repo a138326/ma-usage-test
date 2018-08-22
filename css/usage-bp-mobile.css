@@ -58,6 +58,8 @@
  --shadow-03: 0 5px 15px 2px rgba(0,0,0,0.20);
  --shadow-03: 0px 4px 12px 1px rgba(0,0,0,0.20);
 --shadow-03: 0px 3px 10px 2px rgba(0,0,0,0.20);
+--shadow-03: 0px 3px 10px 2px rgba(0,0,0,0.10);
+--shadow-04: 0px 5px 15px 4px rgba(0,0,0,0.30);
 
  /* Border radius= */
 --bd-radius-01: 4px;
@@ -83,7 +85,10 @@
 }
 
 
-/* Base */
+/*
+–––––––––––––––––––––––––––––––––––––––
+Base
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
 body {
 	background-color: var(--neutral-06);
 	margin: 0;
@@ -105,7 +110,9 @@ img {
 	height: auto;
 }
 
-/* Nav */
+/*
+Nav
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
 .nav-primary {
 	background: #FFFFFF;
 	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.10);
@@ -114,8 +121,11 @@ img {
 
 
 
+/*
+–––––––––––––––––––––––––––––––––––––––
+ Fuel tab 
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
 
-/* Fuel tab */
 .fuel-tab {
 	display: flex;
 	align-items: center;
@@ -137,8 +147,10 @@ img {
 }
 
 
-
-/* Bill period */
+/*
+–––––––––––––––––––––––––––––––––––––––
+Bill period 
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
 .bp-wrapper {
 	background: #FFFFFF;
 	border-radius: var(--bd-radius-04);
@@ -157,8 +169,11 @@ img {
 }
 
 
-/* Bill period - tracker */
 
+/*
+–––––––––––––––––––––––––––––––––––––––
+Bill period - tracker
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
 .bp-tracker-wrapper {
 	display: flex;
 	align-items: center;
@@ -209,8 +224,8 @@ Bill period - cost to date
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
 .bp-ctd-wrapper {
 	border-bottom: 1px solid var(--neutral-04);
-	border-top: 1px solid var(--neutral-04);
 	padding: var(--space-04) 0;
+	padding-top: 0;
 	margin-bottom: var(--space-04);
 }
 
@@ -225,6 +240,7 @@ Bill period - cost to date
 	font-family: var(--body-font-stack);
 	margin-left: var(--space-02);
 	color: var(--neutral-03);
+	display: none;
 }
 .bp-ctd-amount {
 	font-size: var(--display-font-size-01);
@@ -239,7 +255,7 @@ Bill period - cost to date
 .bp-ctd-projection {
 	font-size: var(--body-font-size-normal);
 	font-family: var(--body-font-stack);
-	color: var(--neutral-01);
+	color: var(--neutral-02);
 }
 
 
@@ -335,6 +351,7 @@ One year data set
 	font-size: var(--body-font-size-small);
 	font-family: var(--body-font-stack);
 	margin-bottom: var(--space-04);
+	color: var(--neutral-02);
 }
 
 
@@ -365,10 +382,6 @@ Previous bills
 
 
 
-.bp-ctd-wrapper {
-	border-top: none;
-	padding-top: 0;
-}
 
 
 /*

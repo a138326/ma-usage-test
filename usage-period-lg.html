@@ -10,8 +10,8 @@
 <!-- Bootstrap -->
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Titillium+Web:400,600, 700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link href="css/variables.css" rel="stylesheet">
 <link href="css/usage-bp-mobile.css" rel="stylesheet">
+<link href="css/usage-bp-desktop.css" rel="stylesheet">
 
 
 
@@ -30,22 +30,25 @@
 </head>
 <body>
 
+<!-- nav -->
+<div class="nav-primary">
+	<img src="images/nav-desktop.png">
+</div>
+<!-- / nav -->
+
 <!-- Content -->
 <div class="content-wrapper">
 
-<!-- nav -->
-<div class="nav-primary">
-	<img src="images/nav-mobile.png">
-</div>
-<!-- / nav -->
+
+
 
 
 <!-- tab -->
 <div class="fuel-tab">
 	<div class="fuel-tab-icon"><img src="images/elec-icon-active.svg"></div>
 	<div class="fuel-tab-label fuel-tab-label-elec">Electricity</div>
-	<div class="fuel-tab-icon"><img src="images/gas-icon-inactive.svg"></div>
-	<div class="fuel-tab-label fuel-tab-label-gas">Gas</div>
+	<div class="fuel-tab-icon"><img src="images/gas-icon-inactive-03.svg"></div>
+	<div class="fuel-tab-label fuel-tab-label-gas fuel-tab-static">Gas</div>
 </div>
 <!-- / tab -->
 
@@ -58,20 +61,20 @@
 	
 <!-- tracker -->
 	<div class="bp-tracker-wrapper">
-		<div class="bp-tracker-start-date">13 <br> Mar</div>	
+		<div class="bp-tracker-start-date">13 <br> <span class="month">Mar</span></div>	
 		<div class="bp-tracker-gfx">
 			<div class="bp-tracker-gfx-start"></div>
 			<div class="bp-tracker-gfx-current"></div>
 			<div class="bp-tracker-gfx-end"></div>
 		</div>	
-		<div class="bp-tracker-start-end">09 <br> May</div>	
+		<div class="bp-tracker-start-end">09 <br> <span class="month">May</span></div>	
 	</div>
 <!-- /tracker -->
 
 <!-- cost to date -->
 	<div class="bp-ctd-wrapper">
 		<div class="bp-ctd-hd">Cost to date</div>	
-		<div class="bp-ctd-amount">$67.56</div>
+		<div class="bp-ctd-amount"><span class="">$</span>67<span class="no-small">.56</span><span class="ctd-kwh">253kWh</span></div>
 		<div class="bp-ctd-projection">Bill projection $140.26 </div>
 	</div>
 <!-- /cost to date -->
@@ -80,8 +83,7 @@
 
 <!-- snapshot -->
 	<div class="bp-snap-wrapper">
-		<div class="bp-snap-hd">Snapshot of your usage</div>
-		<div class="bp-snap-sub">Average daily cost of electricity	</div>
+		<div class="bp-snap-hd">Daily average</div>
 		
 		<div class="bp-snap-compare-wrapper">
 			<div class="bp-snap-compare-this">
@@ -105,9 +107,6 @@
 			<div class="bp-snap-insight-hd">60% more</div>
 		</div>
 		<div class="bp-snap-insight-sub">Than compared to last year</div>
-		<div class="bp-snap-insight-body">
-			You're spending more per day on your energy than this bill period last year.
-		</div>
 	</div>
 <!-- /snapshot date -->
 
@@ -126,7 +125,8 @@
 <!-- cost to date -->
 	<div class="bp-ctd-wrapper">
 		<div class="bp-ctd-hd">Bill total</div>	
-		<div class="bp-ctd-amount">$821.56</div>
+		<div class="bp-ctd-amount">$821<span class="no-small">.23</span></div>
+		<div class="bp-ctd-projection"> </div>
 	</div>
 <!-- /cost to date -->
 
@@ -134,8 +134,7 @@
 
 <!-- snapshot -->
 	<div class="bp-snap-wrapper">
-		<div class="bp-snap-hd">Snapshot of your usage</div>
-		<div class="bp-snap-sub">Average daily cost of electricity	</div>
+		<div class="bp-snap-hd">Daily average</div>
 		
 		<div class="bp-snap-compare-wrapper">
 			<div class="bp-snap-compare-this">
@@ -159,9 +158,6 @@
 			<div class="bp-snap-insight-hd">45% more</div>
 		</div>
 		<div class="bp-snap-insight-sub">Than compared to last year</div>
-		<div class="bp-snap-insight-body">
-			You're spending more per day on your energy than this bill period last year.
-		</div>
 	</div>
 <!-- /snapshot date -->
 
@@ -179,7 +175,7 @@
 <!-- cost to date -->
 	<div class="bp-ctd-wrapper">
 		<div class="bp-ctd-hd">Bill total</div>	
-		<div class="bp-ctd-amount">$322.56</div>
+		<div class="bp-ctd-amount">$322<span class="no-small">.81</span></div>
 	</div>
 <!-- /cost to date -->
 
@@ -187,8 +183,7 @@
 
 <!-- snapshot -->
 	<div class="bp-snap-wrapper">
-		<div class="bp-snap-hd">Snapshot of your usage</div>
-		<div class="bp-snap-sub">Average daily cost of electricity	</div>
+		<div class="bp-snap-hd">Daily average</div>
 		
 		<div class="bp-snap-compare-wrapper">
 			<div class="bp-snap-compare-this">
@@ -212,9 +207,34 @@
 			<div class="bp-snap-insight-hd">12% less</div>
 		</div>
 		<div class="bp-snap-insight-sub">Than compared to last year</div>
-		<div class="bp-snap-insight-body">
-			You're spending less per day on your energy than this bill period last year.
-		</div>
+	</div>
+<!-- /snapshot date -->
+
+	<button href="#" >Full breakdown</button>
+
+</div>
+<!-- / past bill period 0 -->
+
+
+
+<!-- past bill period 01  -->
+<div class="bp-wrapper bp-past bp-past-02">
+	
+	<div class="bp-date">10 Jul to 9 Oct 2017</div>
+
+<!-- cost to date -->
+	<div class="bp-ctd-wrapper">
+		<div class="bp-ctd-hd">Bill total</div>	
+		<div class="bp-ctd-amount">$322<span class="no-small">.12</span></div>
+	</div>
+<!-- /cost to date -->
+
+
+
+<!-- snapshot -->
+	<div class="bp-snap-wrapper one-year">
+		<div class="bp-snap-hd">Daily average</div>
+		<div class="bp-snap-insight-hd">$12.45</div>
 	</div>
 <!-- /snapshot date -->
 
@@ -226,6 +246,8 @@
 
 </div>
 <!-- / Content -->
+
+
 
 <script src="js/jquery-1.11.3.min.js"></script>
 

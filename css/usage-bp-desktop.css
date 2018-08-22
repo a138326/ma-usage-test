@@ -1,0 +1,237 @@
+body {
+}
+.content-wrapper {
+	max-width: 1140px;
+	padding-bottom: 200px;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+/*
+Nav
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+.nav-primary {
+	background: #FFFFFF;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.10);
+	margin-bottom: var(--space-04);
+	text-align: center;
+}
+.nav-primary img {
+	width: 1140px;
+	height: auto;
+	margin: 0 auto;
+}
+
+
+/*
+–––––––––––––––––––––––––––––––––––––––
+ Fuel tab 
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+.fuel-tab {
+	justify-content: flex-start;
+	max-width: 600px;
+	margin: 0 auto;
+	margin-bottom: var(--space-04);
+	font-size: var(--display-font-size-04);
+}
+.fuel-tab-icon {
+	margin-right: var(--space-03);
+	width: 40px;
+	height: 40px;
+}
+.fuel-tab-label-elec {
+	margin-right: var(--space-05);
+}
+
+
+/*
+–––––––––––––––––––––––––––––––––––––––
+Bill period 
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+.bp-wrapper {
+	border-radius: var(--bd-radius-04);
+	box-shadow: var(--shadow-03);
+	width: 540px;
+	margin: 0 auto;
+	padding: var(--space-04); 
+	margin-bottom: var(--space-04);
+	
+	transition: box-shadow 0.3s ease-in-out;
+	position: relative;
+	transition: box-shadow .3s ease-out, transform .4s ease-out, opacity .2s ease-out;
+    transition-delay: .1;
+}
+.bp-wrapper:hover {
+	box-shadow: var(--shadow-04);
+	transform: translate(0, -3px);
+	cursor: pointer;
+}
+.bp-date {
+	margin-bottom: var(--space-05);
+}
+
+
+
+/*
+–––––––––––––––––––––––––––––––––––––––
+Bill period - tracker
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+.bp-tracker-wrapper {
+	margin-bottom: var(--space-04);
+}
+
+.bp-tracker-start-date, .bp-tracker-start-end {
+	font-size: var(--body-font-size-small);
+	font-family: var(--body-font-stack);
+	text-align: center;
+	line-height: 1.1;
+	width: 40px;
+}
+.month {
+	font-size: var(--body-font-size-smallest);
+}
+.bp-tracker-start-end {
+	margin-left: var(--space-02);
+}
+.bp-tracker-gfx {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding-left: var(--space-03);
+	padding-right: var(--space-02);
+}
+.bp-tracker-gfx-start {
+	width: 40%;
+	border-bottom: 2px solid var(--primary-light);
+}
+.bp-tracker-gfx-current {
+	width: 14px;
+	height: 14px;
+	margin: 0 var(--space-01);
+	background-color: var(--primary-light);
+	border-radius: 14px; 
+}
+.bp-tracker-gfx-end {
+	width: 50%;
+	border-bottom: 2px dashed var(--primary-light);
+}
+
+
+/*
+–––––––––––––––––––––––––––––––––––––––
+Bill period - cost to date
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+.bp-ctd-wrapper {
+	padding: var(--space-05) 0;
+	padding-top: 0;
+	margin-bottom: var(--space-05);
+}
+
+.bp-ctd-hd {
+	font-size: var(--display-font-size-04);
+	margin-bottom: var(--space-02);
+}
+.bp-ctd-amount {
+	font-size: var(--display-font-size-01);
+	margin-bottom: var(--space-03);
+	line-height: 1;
+}
+.bp-ctd-amount .no-small {
+	font-size: var(--display-font-size-03);
+}
+.bp-ctd-projection {
+	font-size: var(--body-font-size-normal);
+}
+
+
+/*
+–––––––––––––––––––––––––––––––––––––––
+Average daily cost
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+.bp-snap-hd {
+	font-size: var(--display-font-size-04);
+	margin-bottom: var(--space-03);
+}
+
+.bp-snap-compare-wrapper {
+	margin-bottom: var(--space-03);
+}
+.bp-snap-compare-this {
+	margin-bottom: var(--space-03);
+}
+.bp-snap-compare-label {
+	font-size: var(--body-font-size-small);
+}
+.bp-snap-compare-bar {
+	height: 30px;
+	border-radius: 30px;
+}
+.bp-snap-compare-amount {
+	font-size: var(--body-font-size-normal);
+	color: var(--neutral-01);
+	line-height: 30px;
+	margin-left: var(--space-02);
+}
+
+
+/*
+–––––––––––––––––––––––––––––––––––––––
+One year data set
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+.one-year .bp-snap-hd {
+	margin-bottom: var(--space-01);
+}
+.one-year .bp-snap-insight-hd {
+	font-size: var(--display-font-size-03);
+	margin-bottom: var(--space-04);
+}
+
+/*
+–––––––––––––––––––––––––––––––––––––––
+60% more
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+.bp-snap-insight {
+	align-content: center;
+	height: 30px;
+	margin-bottom: var(--space-02);
+}
+.bp-snap-insight-delta {
+	width: 30px;
+	height: 30px;	
+	margin-right: var(--space-02);
+}
+.bp-snap-insight-hd {
+	font-size: var(--display-font-size-03);
+	font-family: var(--display-font-stack);
+	line-height: 30px;
+	height: 30px;
+}
+.bp-snap-insight-sub {
+	font-size: var(--body-font-size-normal);
+	margin-bottom: var(--space-05);
+}
+
+
+
+
+
+/*
+–––––––––––––––––––––––––––––––––––––––
+Previous bills
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+.prev-bill-hd {
+	font-size: var(--display-font-size-05);
+}
+
+
+/*
+–––––––––––––––––––––––––––––––––––––––
+ Button 
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+button {
+	width: 400px;
+}
