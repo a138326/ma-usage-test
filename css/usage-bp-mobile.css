@@ -123,12 +123,14 @@ img {
 	font-family: var(--display-font-stack);
 	font-size: var(--display-font-size-05);
 }
+.fuel-tab-static {
+	color: var(--neutral-03);
+}
 .fuel-tab-icon {
 	margin-right: var(--space-02);
-	width: 40px;
-	height: 40px;
+	width: 30px;
+	height: 30px;
 }
-
 .fuel-tab-label-elec {
 	margin-right: var(--space-04);
 }
