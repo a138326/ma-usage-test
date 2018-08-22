@@ -78,7 +78,7 @@
 --btn-font-weight: 600;
 
 --col-usage-active: linear-gradient(270deg, #00DFED 0%, #05B9EF 100%);
---col-usage-inactive: linear-gradient(0deg, #E3E3E3 0%, #EBEBEB 97%);
+--col-usage-inactive: linear-gradient(0deg, #E3E3E3 0%, #E8E8E8 100%);
 }
 
 
@@ -200,12 +200,15 @@ img {
 }
 
 
-/* Bill period - cost to date */
+/*
+–––––––––––––––––––––––––––––––––––––––
+Bill period - cost to date
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
 .bp-ctd-wrapper {
 	border-bottom: 1px solid var(--neutral-04);
 	border-top: 1px solid var(--neutral-04);
-	padding: var(--space-03) 0;
-	margin-bottom: var(--space-03);
+	padding: var(--space-04) 0;
+	margin-bottom: var(--space-04);
 }
 
 .bp-ctd-hd {
@@ -226,7 +229,6 @@ img {
 	font-size: var(--body-font-size-small);
 	font-family: var(--body-font-stack);
 	color: var(--neutral-01);
-	margin-bottom: var(--space-01);
 }
 
 
