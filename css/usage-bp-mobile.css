@@ -57,12 +57,13 @@
  /* Shadow */
  --shadow-03: 0 5px 15px 2px rgba(0,0,0,0.20);
  --shadow-03: 0px 4px 12px 1px rgba(0,0,0,0.20);
+--shadow-03: 0px 3px 10px 2px rgba(0,0,0,0.20);
 
  /* Border radius= */
 --bd-radius-01: 4px;
 --bd-radius-02: 8px;
 --bd-radius-03: 12px;
---bd-radius-04: 16px;
+--bd-radius-04: 8px;
 
 
 --col-btn-primary: #001CB0;
@@ -219,7 +220,12 @@ Bill period - cost to date
 	color: var(--neutral-01);
 	margin-bottom: var(--space-01);
 }
-
+.ctd-kwh {
+	font-size: var(--body-font-size-normal);
+	font-family: var(--body-font-stack);
+	margin-left: var(--space-02);
+	color: var(--neutral-03);
+}
 .bp-ctd-amount {
 	font-size: var(--display-font-size-01);
 	font-family: var(--display-font-stack);
@@ -228,7 +234,7 @@ Bill period - cost to date
 	line-height: 1;
 }
 .bp-ctd-amount .no-small {
-	font-size: var(--display-font-size-04);
+	font-size: var(--display-font-size-03);
 }
 .bp-ctd-projection {
 	font-size: var(--body-font-size-normal);
