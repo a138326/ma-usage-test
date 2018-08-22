@@ -219,6 +219,7 @@ Bill period - cost to date
 	color: var(--neutral-01);
 	margin-bottom: var(--space-01);
 }
+
 .bp-ctd-amount {
 	font-size: var(--display-font-size-01);
 	font-family: var(--display-font-stack);
@@ -226,7 +227,9 @@ Bill period - cost to date
 	margin-bottom: var(--space-03);
 	line-height: 1;
 }
-
+.bp-ctd-amount .no-small {
+	font-size: var(--display-font-size-04);
+}
 .bp-ctd-projection {
 	font-size: var(--body-font-size-normal);
 	font-family: var(--body-font-stack);
