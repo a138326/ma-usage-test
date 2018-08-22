@@ -221,7 +221,7 @@ Bill period - cost to date
 	margin-bottom: var(--space-01);
 }
 .ctd-kwh {
-	font-size: var(--body-font-size-normal);
+	font-size: var(--body-font-size-small);
 	font-family: var(--body-font-stack);
 	margin-left: var(--space-02);
 	color: var(--neutral-03);
