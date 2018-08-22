@@ -86,9 +86,7 @@ Bill period - tracker
 }
 
 .bp-tracker-start-date, .bp-tracker-start-end {
-	font-size: var(--body-font-size-small);
-	font-family: var(--body-font-stack);
-	text-align: center;
+	font-size: var(--body-font-size-normal);
 	line-height: 1.1;
 	width: 40px;
 }
