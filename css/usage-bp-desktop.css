@@ -14,8 +14,6 @@ img {
 Nav
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
 .nav-primary {
-	background: #FFFFFF;
-	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.10);
 	margin-bottom: var(--space-06);
 	text-align: center;
 	height: 70px!important;
@@ -47,6 +45,15 @@ Nav
 .fuel-tab-label-elec {
 	margin-right: var(--space-05);
 }
+.fuel-tab-control.fuel-tab-gas:hover {
+	cursor: pointer;
+}
+.fuel-tab-control.fuel-tab-gas:hover .fuel-tab-label-gas{
+	color: var(--secondary-action-dark);
+}
+.fuel-tab-gas .fuel-tab-icon img:last-child{display:none}
+.fuel-tab-gas:hover img:first-child{display:none}
+.fuel-tab-gas:hover img:last-child{display:inline-block}
 
 
 /*
@@ -61,14 +68,16 @@ Bill period
 	padding: var(--space-04); 
 	margin-bottom: var(--space-04);
 	
-	transition: box-shadow 0.3s ease-in-out;
 	position: relative;
-	transition: box-shadow .3s ease-out, transform .4s ease-out, opacity .2s ease-out;
+/*	transition: box-shadow .3s ease-out, transform .4s ease-out, opacity .2s ease-out; */
+
+	transition: 	box-shadow 		.4s 	ease-out, 
+					transform 		.4s 	ease-out;
     transition-delay: .1;
 }
 .bp-wrapper:hover {
 	box-shadow: var(--shadow-04);
-	transform: translate(0, -3px);
+	transform: translate(0, -2px);
 	cursor: pointer;
 }
 .bp-date {
@@ -87,8 +96,7 @@ Bill period - tracker
 
 .bp-tracker-start-date, .bp-tracker-start-end {
 	font-size: var(--body-font-size-normal);
-	line-height: 1.1;
-	width: 40px;
+	width: 30px;
 }
 .month {
 	font-size: var(--body-font-size-smallest);
@@ -98,10 +106,6 @@ Bill period - tracker
 }
 .bp-tracker-gfx {
 	width: 100%;
-	display: flex;
-	align-items: center;
-	padding-left: var(--space-03);
-	padding-right: var(--space-02);
 }
 .bp-tracker-gfx-start {
 	width: 40%;
@@ -157,7 +161,7 @@ Average daily cost
 }
 
 .bp-snap-compare-wrapper {
-	margin-bottom: var(--space-03);
+	margin-bottom: var(--space-04);
 }
 .bp-snap-compare-this {
 	margin-bottom: var(--space-03);
