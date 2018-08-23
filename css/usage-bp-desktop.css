@@ -228,6 +228,10 @@ Previous bills
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
 .prev-bill-hd {
 	font-size: var(--display-font-size-05);
+	text-align: left;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
